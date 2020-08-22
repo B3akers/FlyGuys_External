@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlyGuys_External", "FlyGuys_External\FlyGuys_External.vcxproj", "{E0347F8C-58B5-43C0-B136-C61F445C2E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0347F8C-58B5-43C0-B136-C61F445C2E23}.Debug|x64.ActiveCfg = Debug|x64
+		{E0347F8C-58B5-43C0-B136-C61F445C2E23}.Debug|x64.Build.0 = Debug|x64
+		{E0347F8C-58B5-43C0-B136-C61F445C2E23}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0347F8C-58B5-43C0-B136-C61F445C2E23}.Debug|x86.Build.0 = Debug|Win32
+		{E0347F8C-58B5-43C0-B136-C61F445C2E23}.Release|x64.ActiveCfg = Release|x64
+		{E0347F8C-58B5-43C0-B136-C61F445C2E23}.Release|x64.Build.0 = Release|x64
+		{E0347F8C-58B5-43C0-B136-C61F445C2E23}.Release|x86.ActiveCfg = Release|Win32
+		{E0347F8C-58B5-43C0-B136-C61F445C2E23}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF28DAB0-E3D3-48BB-AAD2-1321C23CF455}
+	EndGlobalSection
+EndGlobal
