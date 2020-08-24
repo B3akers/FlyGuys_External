@@ -283,6 +283,10 @@ void cheat_manager::main_loop( ) {
 				draw_manager::add_filled_rect_on_screen( screen, screen + vector( 15, 15 ), ImColor( 1.f, 0.f, 0.f ) );
 		}
 
+		auto character_data_monitor = client_game_manager.fields._characterDataMonitor( );
+		character_data_monitor.fields._timeToRunNextCharacterControllerDataCheck = FLT_MAX;
+		save_class( character_data_monitor, client_game_manager.fields._characterDataMonitor_ptr );
+
 		auto player_list_items = System_Collections_Generic_Dictionary_Entry_TKey__TValue__array::m_Items( player_list.fields.entries_ptr, player_list.fields.count );
 		for ( auto i = 0; i < player_list.fields.count; i++ ) {
 			auto character_ptr = player_list_items[ i ].fields.value_ptr;

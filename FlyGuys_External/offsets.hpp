@@ -27,7 +27,7 @@ namespace offsets {
 	namespace signatures {
 		enum {
 			game_object_manager = 0x17B70E8,
-			global_game_state = 45847968, //Class$MPG.Utility.Singleton<GlobalGameStateClient>
+			global_game_state = 45900040, //Class$MPG.Utility.Singleton<GlobalGameStateClient>
 		};
 	}
 }
